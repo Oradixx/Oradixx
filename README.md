@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @Oradixx - Clément VURPILLOT
+- 👋 Hi, I’m Clément VURPILLOT
 - 👀 I’m interested in general programmation like C#, Python, but also server and data like sql
 - 🌱 I’m currently learning C#, Python and data at ESILV and focus on improving myself rn
 - 📫 How to reach me : https://www.linkedin.com/in/clement-vurpillot/
