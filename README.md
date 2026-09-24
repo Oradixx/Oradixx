@@ -9,6 +9,7 @@ I build data pipelines and ML systems end to end — from raw sensor frames to d
 
 - **IoT telemetry pipeline** (Data & AI engineering internship, CERTAM, 2026) — CAN bus / J1939 data ingested with Python asyncio into PostgreSQL + TimescaleDB, Grafana dashboards, deployed on a Debian VPS behind Nginx; Random Forest + SHAP model to stand in for faulty sensors.
 - **[Used car price prediction](https://github.com/Oradixx/Car_Price_Prediction_Project)** — team project on a Kaggle Craigslist dataset: cleaning, feature engineering, model comparison up to LightGBM (R² ≈ 0.82).
+- **[Data Plumber](https://oradixx.github.io/data-plumber/)** — a casual game about data pipelines: sort rows by hand, automate the checks with pipeline stations, then run a live data factory. TypeScript + Phaser, game logic unit-tested, and a solver that proves the final boss has exactly one solution.
 - **Sentiment analysis, from a hand-written RNN to a small language model** — *coming soon*.
 
 ### Tech I use
