@@ -8,7 +8,7 @@ I build data pipelines and ML systems end to end — from raw sensor frames to d
 ### What I've been working on
 
 - **IoT telemetry pipeline** (Data & AI engineering internship, CERTAM, 2026) — CAN bus / J1939 data ingested with Python asyncio into PostgreSQL + TimescaleDB, Grafana dashboards, deployed on a Debian VPS behind Nginx; Random Forest + SHAP model to stand in for faulty sensors.
-- **[CryptoIndexLab](https://github.com/Oradixx/CryptoIndexLab)** — team project: two FastAPI microservices, one PostgreSQL each on isolated Docker networks, Traefik in front, Trivy scan gate in CI. Runs in one click on GitHub Codespaces.
+- **[CryptoIndexLab](https://github.com/Oradixx/CryptoIndexLab)** — team project: two FastAPI microservices with 2 replicas each behind an Nginx load balancer, one PostgreSQL each on isolated Docker networks, Trivy scan gate in CI. Runs in one click on GitHub Codespaces.
 - **[NLP on 24k insurance reviews](https://github.com/Oradixx/insurance-reviews-nlp)** — rating prediction (TF-IDF + SHAP, embeddings + PyTorch), topics, semantic search, and a Streamlit RAG app on a local Llama 3.
 - **[MovieLens in Cassandra and Neo4j](https://github.com/Oradixx/movielens-nosql)** — one million ratings modelled as query-first Cassandra tables, then as a graph for recommendations and shortest paths.
 - **[Used car price prediction](https://github.com/Oradixx/Car_Price_Prediction_Project)** — team project on a Kaggle Craigslist dataset: cleaning, feature engineering, model comparison up to LightGBM (R² ≈ 0.82).
